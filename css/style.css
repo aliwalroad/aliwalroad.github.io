@@ -1,1 +1,70 @@
-test
+body { 
+	background-image: url(../images/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-color: lightgrey;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.main {
+	background-color: rgba(225,225,225,0.8);
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+	border-radius: 20px;
+	box-shadow: 0px 0px 0px 0px blue
+}
+
+h1 {
+	text-align: center;
+	font-size: 60px;
+	margin-top: 30px;
+	font-family: 'Oxygen', sans-serif;
+}
+h2 {
+	text-align: center;
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+}
+
+/* This is a CSS comment */
+
+img {
+	display: block;
+	margin: 0 auto;
+	border: 10px solid hotpink;
+	border-radius: 30px;
+}
+
+p,
+ol,
+ul {
+	line-height: 1.6;
+	list-style: none;
+	padding-left: 0;
+}
+
+h3 {
+	text-decoration: underline;
+	margin-top: 35px;
+	margin-bottom: 10px;
+}
+h3:hover {
+	cursor: pointer;
+	border-color: purple;
+}
+h3 + * {
+	display: none;
+}
+
+a {
+	text-decoration: none;
+	color: purple;
+	font-weight: bold;
+}
+a:hover {
+	text-decoration: underline;
+	color: hotpink;
+}
